@@ -8,3 +8,74 @@
   font-weight: 400;
   font-style: normal;
 }
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* shared styles */
+  .display-flex{
+    display: flex;
+  }
+  .text-gray{
+    color: #424242;
+  }
+  .text-gray-light{
+    color: #727272;
+  }
+  .btn-primary{
+    background-color: #FF900E;
+    color: white;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    border: none;
+    border-radius: .50rem;
+  }
+
+/* Header Styles */
+
+
+/* Navbar Styles */
+.header-bg{
+  background-color:rgba(255, 144, 14, 0.1);
+}
+ .navbar{
+  justify-content: space-between;
+
+ }
+
+ .navbar, .banner{
+  max-width: 1440px;
+  margin: 0 auto;
+ }
+ .nav-item{
+  list-style: none;
+  margin-right: 30px;
+ }
+ .nav-link{
+  text-decoration: none;
+  font-weight: 500;
+ }
+
+ .banner-content{
+  max-width: 850px;
+  margin: 2rem auto;
+  text-align: center;
+ 
+ }
+ .banner-title{
+  font-weight: 700;
+  font-size: 4rem;
+ }
+ .banner-img{
+  width: 100%;
+ }
+
+ @media screen and (max-width:700px) {
+    .navbar, .nav-links{
+      flex-direction: column;
+      text-align: center;
+    }
+ }
